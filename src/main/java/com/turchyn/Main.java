@@ -8,16 +8,19 @@ public class Main {
         ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext(
                 "applicationContext.xml");
 
-        context.getBean("playRock", RockMusic.class).playingMusic();
+        RockMusic rock = context.getBean("playRock", RockMusic.class);
+        MusicPlayer musicRock = new MusicPlayer(rock);
+        musicRock.playMusic();
         context.close();
 
-        System.out.println("Main.main");
+        System.out.println(" ");
         ClassPathXmlApplicationContext context1=new ClassPathXmlApplicationContext(
                 "applicationContext.xml");
 
-        context1.getBean("playClassic",ClassicMusic.class).playingMusic();
-
-
+        ClassicMusic classic = context1.getBean("playClassic", ClassicMusic.class);
+        MusicPlayer musicClassic = new MusicPlayer(classic);
+        musicClassic.playMusic();
+        context1.close();
 
 
 //
