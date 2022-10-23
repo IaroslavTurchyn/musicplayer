@@ -5,6 +5,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class Main {
     public static void main(String[] args) {
+
         ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext(
                 "applicationContext.xml");
 
@@ -14,13 +15,19 @@ public class Main {
         context.close();
 
         System.out.println(" ");
-        ClassPathXmlApplicationContext context1=new ClassPathXmlApplicationContext(
+        ClassPathXmlApplicationContext context1 = new ClassPathXmlApplicationContext(
                 "applicationContext.xml");
 
         ClassicMusic classic = context1.getBean("playClassic", ClassicMusic.class);
         MusicPlayer musicClassic = new MusicPlayer(classic);
         musicClassic.playMusic();
-        context1.close();
+
+        System.out.println(" ");
+
+
+        ClassPathXmlApplicationContext context2 = new ClassPathXmlApplicationContext("Bean.xml");
+        MusicPlayer musicPlayer = context2.getBean("musicPlayer", MusicPlayer.class);
+        musicPlayer.playMusic();
 
 
 //
