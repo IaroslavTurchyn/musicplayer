@@ -5,14 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8236d3c8-a4b8-4f03-b756-0ec53fc024ac" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/turchyn/ClassicMusic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/turchyn/ClassicMusic.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/turchyn/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/turchyn/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/turchyn/MusicPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/turchyn/MusicPlayer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/turchyn/ProjectConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/turchyn/RockMusic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/turchyn/RockMusic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Bean.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Bean.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,7 +93,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666553108770</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="applicationContext initial">
+      <created>1666725976833</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1666725976833</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

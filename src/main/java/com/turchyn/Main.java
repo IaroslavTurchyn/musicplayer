@@ -45,6 +45,7 @@ public class Main {
         Music rock = contextAnotation.getBean("rock", Music.class);
         MusicPlayer musicPlayer = new MusicPlayer(rock);
         musicPlayer.playMusic();
+        contextAnotation.close();
 
 
 
