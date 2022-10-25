@@ -1,5 +1,8 @@
 package com.turchyn;
 
+
+
+
 public class MusicPlayer {
     private Music music;
 
@@ -8,5 +11,15 @@ public class MusicPlayer {
     }
     public void playMusic(){
         music.playingMusic();
+    }
+
+
+    }
+
+    public void init(){
+        System.out.println("start plaing");
+    }
+    public void destroy(){
+        System.out.println("The End");
     }
 }

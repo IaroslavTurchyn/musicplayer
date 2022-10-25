@@ -8,14 +8,29 @@
         http://www.springframework.org/schema/context/spring-context.xsd">
 
 
-    <bean id= "Rock"
+    <bean id= "RockM"
           class="com.turchyn.RockMusic">
     </bean>
 
-    <bean id= "musicPlayer"
-          class="com.turchyn.MusicPlayer">
-        <constructor-arg ref="Rock"/>
+    <bean id="Classic"
+          class="com.turchyn.ClassicMusic">
+
     </bean>
+
+    <bean id= "musicPlayer"
+          class="com.turchyn.MusicPlayer"
+          init-method="init"
+          destroy-method="destroy">
+        <constructor-arg ref="RockM"/>
+    </bean>
+
+    <bean id= "musicClassic"
+          class="com.turchyn.MusicPlayer">
+        <constructor-arg ref="Classic"/>
+    </bean>
+
+
+
 
 
 

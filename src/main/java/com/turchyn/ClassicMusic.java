@@ -1,8 +1,10 @@
 package com.turchyn;
 
+import org.springframework.stereotype.Component;
+
 import java.util.ArrayList;
 import java.util.List;
-
+@Component("classic")
 public class ClassicMusic implements Music {
     private List<Song> classicMusic=new ArrayList<>();
 
