@@ -14,7 +14,7 @@ public class MusicPlayer {
     }
 
 
-    }
+
 
     public void init(){
         System.out.println("start plaing");
