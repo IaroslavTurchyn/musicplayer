@@ -9,8 +9,8 @@ import java.util.List;
 public class RockMusic implements Music{
     private List <Song> rockMusic = new ArrayList<>();
     public RockMusic(){
-        rockMusic.add(new Song("Rock1","trek1"));
-        rockMusic.add(new Song("Rock2","trek2"));
+        rockMusic.add(new Song("ACDC","Thunderstruck"));
+        rockMusic.add(new Song("PAPA ROACH","Last Resort"));
     }
 
     public void playingMusic (){
